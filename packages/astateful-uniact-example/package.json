@@ -1,0 +1,43 @@
+{
+  "name": "astateful-uniact-example",
+  "version": "1.6.1",
+  "description": "An example website built using the cli and the uniact framework.",
+  "main": "build/server.js",
+  "scripts": {
+    "start": "npm run run-dev",
+    "run-dev": "astateful-cli-run --target=development --environment=environment.json",
+    "run-prod": "astateful-cli-run --target=production --environment=environment.json",
+    "build-dev": "astateful-cli-build --target=development --environment=environment.json",
+    "build-prod": "astateful-cli-build --target=production --environment=environment.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/astateful/astateful-uniact.git"
+  },
+  "author": "Thomas Kovacs",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/astateful/astateful-uniact#readme",
+  "dependencies": {
+    "astateful-uniact-client": "1.6.1",
+    "astateful-uniact-components": "1.6.1",
+    "astateful-uniact-server": "1.6.1",
+    "bootstrap": "4.1.2",
+    "connected-react-router": "4.3.0",
+    "es6-promise": "4.2.4",
+    "history": "4.7.2",
+    "lodash": "4.17.10",
+    "prop-types": "15.6.2",
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "react-helmet": "5.2.0",
+    "react-hot-loader": "^4.3.3",
+    "react-redux": "5.0.7",
+    "react-router": "4.3.1",
+    "react-router-config": "1.0.0-beta.4",
+    "react-router-dom": "4.3.1",
+    "reactstrap": "5.0.0-beta",
+    "redux": "4.0.0",
+    "redux-thunk": "2.3.0",
+    "styled-components": "3.3.3"
+  }
+}

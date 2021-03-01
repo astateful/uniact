@@ -1,0 +1,23 @@
+{
+  "name": "astateful-uniact-components",
+  "version": "1.6.1",
+  "description": "A set of components for programming React universally.",
+  "main": "src/index.js",
+  "jsnext:main": "src/index.js",
+  "module": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:astateful/astateful-uniact.git"
+  },
+  "author": "Thomas Kovacs",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/astateful/astateful-uniact#readme",
+  "peerDependencies": {
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-helmet": "^5.2.0",
+    "react-redux": "^5.0.6"
+  }
+}

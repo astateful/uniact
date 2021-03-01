@@ -1,0 +1,35 @@
+{
+  "name": "astateful-uniact-server",
+  "version": "1.6.1",
+  "description": "A server-side framework for programming React universally.",
+  "main": "src/index.js",
+  "jsnext:main": "src/index.js",
+  "module": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:astateful/astateful-uniact.git"
+  },
+  "author": "Thomas Kovacs",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/astateful/astateful-uniact#readme",
+  "dependencies": {
+    "astateful-uniact-components": "1.6.1"
+  },
+  "peerDependencies": {
+    "connected-react-router": "^4.3.0",
+    "history": "^4.7.2",
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-helmet": "^5.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.3.1",
+    "react-router-config": "^1.0.0-beta.4",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^3.3.3"
+  }
+}

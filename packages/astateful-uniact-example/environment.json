@@ -1,0 +1,18 @@
+{
+  "run":{
+    "host":"127.0.0.1",
+    "port":3005
+  },
+  "build":{
+    "entry":{
+      "server":"./src/server/entry.js",
+      "client":"./src/client.js"
+    },
+    "nodeModules":"../../node_modules",
+    "es6Modules":{
+      "astateful-uniact-client":"/src",
+      "astateful-uniact-server":"/src",
+      "astateful-uniact-components":"/src"
+    }
+  }
+}
